@@ -24,6 +24,8 @@ GEM
     debug_inspector (1.1.0)
     erubi (1.11.0)
     eventmachine (1.2.7)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
@@ -69,6 +71,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  faker
   pry-byebug
   sinatra
   sinatra-activerecord
